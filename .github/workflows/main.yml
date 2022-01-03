@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - wip-pool
 jobs:
   run:
     name: Build
